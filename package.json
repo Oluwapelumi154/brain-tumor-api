@@ -1,0 +1,27 @@
+{
+  "name": "brain-tumor-api",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oluwapelumi154/brain-tumor-api.git"
+  },
+  "keywords": [
+    "brain",
+    "diseases"
+  ],
+  "author": "Orebayo Oluwapelumi Michael",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oluwapelumi154/brain-tumor-api/issues"
+  },
+  "homepage": "https://github.com/Oluwapelumi154/brain-tumor-api#readme",
+   "dependencies": {
+    "@tensorflow/tfjs": "^4.2.0"
+  }
+}
