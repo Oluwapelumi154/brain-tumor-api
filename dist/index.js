@@ -21,7 +21,6 @@ const server = http_1.default.createServer(app_1.default);
 const port = normalizePort(process.env.PORT);
 server.on("listening", () => {
     const address = server.address();
-    console.log(typeof address);
     const bind = typeof address === "string" ? `pipe ${port}` : `port ${port}`;
     console.log(`listening on ${bind}`);
     const log = "[?...] Connecting";
